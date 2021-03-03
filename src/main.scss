@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: grid;
+
+    grid-template-columns: 1fr 5fr;
+}
+
+.logo{
+    min-height: 10vh;
+}
+
+.navbar{
+    
+}
+
+i{
+    padding: 3%;
+}
+
+a{
+    display: block;
+
+    margin-left: 3%;
+    padding: 3%;
+    padding-left: 5%;
+
+    color: black;
+}
+
+a:hover{
+    background-color: blue;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    color: white;
+}
+
+.topbar{
+    position: relative;
+    padding: 1% 3rem;
+}
+
+.fa-bell{
+    position: absolute;
+    right: 2%;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    padding: 2% 1%;
+    padding-right: 0%;
+
+    background-color: cornflowerblue;
+}
+
+.card{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    padding: 1rem;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.rightcard{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 0%;
+
+    padding: 1rem;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    background-color: white;
+}
+
+.middle{
+    display: grid;
+
+    grid-template-columns: 1fr 3fr;
+}
+
+.middleleft{
+    border-right: black solid 1px;
+}
+
+.middleright{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creditimg{
+    width: 100px;
+    height: auto;
+}
+
+.addcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 10%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    background-color: aqua;
+}
+
+h3{
+    font-size: 70%;
+    padding: 1em;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 3%;
+
+    font-weight: normal;
+    text-align: center;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+tr{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: lightgray;
+}
+
+.quicklinks{
+    border-top: solid 1px lightgray;
+}
+
+.quick:hover{
+    background-color: blue;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    color: white;
+}
+
+button{
+    margin-top: 10%;
+    padding: 1rem;
+
+    width: 40%;
+
+    border: 0px;
+    border-radius: 20px;
+
+    outline: none;
+    cursor: pointer ;
+
+    background-color: blue;
+    color: white;
+}
+
+button:active{
+    background-color: darkblue;
+    color: gray;
+}
+
+.rightcard.bottom{
+    display: grid;
+
+    justify-items: center;
+}
