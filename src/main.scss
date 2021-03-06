@@ -144,6 +144,18 @@ a:hover i{
     background-color: #e8f5fb;
 }
 
+.plus{
+    color: #0999d6;
+}
+
+.addcard:hover{
+    background-color: #0999d6;
+}
+
+.addcard:hover .plus{
+    color: white;
+}
+
 h3{
     font-size: 70%;
     padding: 1em;
